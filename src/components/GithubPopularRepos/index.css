@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+@media screen and (min-width: 992px) {
+  .app-container {
+    width: 80%;
+    margin: 0px auto;
+  }
+}
+.main-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.popular-heading {
+  font-family: 'lobster';
+}
+.filter-options-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 0px;
+  width: 90%;
+}
+@media screen and (min-width: 992px) {
+  .filter-options-container {
+    width: 70%;
+  }
+}
+.repositaries-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  width: 80%;
+  justify-content: center;
+}

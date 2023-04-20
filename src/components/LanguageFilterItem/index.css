@@ -1,0 +1,20 @@
+/* Write your CSS here */
+.language-list-item {
+  list-style-type: none;
+}
+.language-btn {
+  border: none;
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: bold;
+}
+.btn-class {
+  border-color: #0284c7;
+  color: #0284c7;
+  border-width: 1px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 3px;
+}

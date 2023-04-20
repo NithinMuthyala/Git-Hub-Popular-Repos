@@ -1,0 +1,58 @@
+/* Write your CSS here */
+
+.item {
+  list-style-type: none;
+  margin-bottom: 10px;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-width: 576px) {
+  .item {
+    margin-right: 10px;
+  }
+}
+.flex-container {
+  display: flex;
+  padding: 8px;
+  align-items: center;
+}
+
+.avatar {
+  height: 150px;
+  width: 150px;
+}
+@media screen and (min-width: 576px) {
+  .avatar {
+    height: 120px;
+    width: 120px;
+  }
+}
+.logo {
+  height: 20px;
+}
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.name-heading {
+  color: #e73959;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 5px;
+}
+.details-container {
+  align-self: start;
+}
+
+.counts-text {
+  color: #1e293b;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  padding-left: 8px;
+}
